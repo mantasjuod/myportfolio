@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap');
+
+/* 
+#2C3531
+#116466
+#D9B08C
+#FFCB9A
+#D1E8E2
+*/
+
+body {
+  background: #f7f7f7;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+/* Hello Text*/
+.hello-text {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.hello-text h1 {
+  font-weight: 100;
+  font-size: 64px;
+}
+/* Welcome Text */
+.welcome-text {
+  color: #116466;
+  margin-bottom: 30px;
+}
+/* Portfolio Image */
+.portfolio-image {
+  text-align: right;
+}
+.portfolio-image img {
+  border: 5px solid #ffcb9a;
+  max-height: 400px;
+}
+/* Portfolio Description */
+.description-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* Contact Me */
+.contact-me-link {
+  margin-top: 5px;
+  display: inline-flex;
+  color: #116466;
+  cursor: pointer;
+}
+/* Projects Text */
+.projects-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffcb9a;
+}
+.projects-text h2 {
+  font-weight: 400;
+}
+/* Project */
+.project {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #ffcb9a;
+}
+.project:last-child {
+  border-bottom: 0 !important;
+}
+/* Individual Project Image */
+.project-image img {
+  border: 1px solid rgb(221, 221, 221);
+}
+/* Individual Project Title */
+.project-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #394741;
+}
+/* Technologies Used Area */
+.technologies-used-area {
+  margin: 25px 0;
+}
+/* Technologies Used Text */
+.technologies-used-text {
+  color: #116466;
+  font-weight: 600;
+}
+/* Single Technology Icon */
+.technology-icon {
+  width: 6%;
+}
+.technology-icon-mongo {
+  width: 14%;
+}
+/* Link To Website Container */
+.link-container {
+  margin-bottom: 30px;
+}
+.link-text {
+  font-weight: 600;
+  color: #116466;
+}
+.link-to-website {
+  color: #2c3531;
+  font-weight: 600;
+  margin-left: 5px;
+}
+/* Contacts Text */
+.contacts-text {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ffcb9a;
+}
+.contacts-text h2 {
+  font-weight: 400;
+}
+/* Contact Area */
+.contact-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Contact Icon */
+.contact-icon {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+/* Email Icon */
+.fa-envelope {
+  font-size: 20px;
+  color: #116466;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+/* Phone Icon */
+.fa-phone-alt {
+  font-size: 20px;
+  color: #116466;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+/* Copyright */
+.copyright-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/* Back To Top */
+.back-to-top {
+  display: none;
+  background: #ffcb9a;
+  color: white;
+  position: fixed;
+  bottom: 5%;
+  right: 10%;
+  padding: 8px 16px;
+}
+.back-to-top:hover {
+  color: #116466;
+}
+.back-to-top:focus {
+  box-shadow: none;
+}
+
+/* Media */
+@media (max-width: 1199.98px) {
+  .back-to-top {
+    right: 0%;
+    bottom: 3%;
+  }
+}
+@media (max-width: 767.98px) {
+  /* Welcome Text */
+  .welcome-text {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  /* Portfolio Description */
+  .short-description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* Portfolio Image */
+  .portfolio-image {
+    display: none;
+  }
+  /* Contact Me */
+  .contact-me-link {
+    margin-top: 5px;
+    display: inline-flex;
+    font-size: 18px;
+    color: #116466;
+    cursor: pointer;
+  }
+  /* Projects Text */
+  .projects-text {
+    margin-top: 40px;
+  }
+  /* Contacts Text */
+  .contacts-text {
+    margin-top: 0;
+  }
+}
